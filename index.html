@@ -9,17 +9,25 @@
             href="styles/styles.css">
     </head>
     <body>
-        <div class="a_style">
-            <a href="">Image search</a>
-            <a href="">Advanced search</a>
+        <nav class="a_style">
+            <a href="pages/image_search.html">Image search</a>
+            <a href="pages/advanced_search.html">Advanced search</a>
+        </nav>
+        <div class="main">
+            <img class="logo" src="images/googlelogo.png" alt="Google Logo">
+            <form action="https://google.com/search">
+                <div class="searchBarContainer">
+                    <img class="searchBarIco" src="images/google-magnifying-glass-icon-grey.png" alt="Magnifying Glass">
+                    <input class="searchBar" type="text" name="q">
+                </div>
+                <div class="buttonContainer">
+                    <input class="button" type="submit" value="Google Search">
+                    <input class="button" name="btnI" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
         </div>
-        <img class="logo" src="images/googlelogo.png" alt="Google Logo">
-        <form action="https://google.com/search">
-            <input class="searchBar" type="text" name="q">
-            <div class="buttonContainer">
-                <input class="button" type="submit" value="Google Search">
-                <input class="button" type="submit" value="I'm Feeling Lucky">
-            </div>
-        </form>
+        <footer>
+            <div class="footerDesc">Harvard</div>
+        </footer>
     </body>
 </html>
