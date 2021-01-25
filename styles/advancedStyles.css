@@ -1,0 +1,76 @@
+.goBackIcon {
+    margin: 5px;
+    padding: 5px;
+}
+
+.tableBoxSize {
+    min-width: 300px;
+    min-height: 30px;
+    float: left;
+    display: block;
+}
+
+.advancedSearchLabel {
+    color: #d93025;
+    font-family: arial,sans-serif;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.advancedLebels {
+    float: left;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    min-width: 180px;
+    min-height: 30px;
+}
+
+.advancedInputs {
+    float: left;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    min-width: 300px;
+    min-height: 30px;
+}
+
+.advancedDescription {
+    float: left;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.advancedRow {
+    clear: both;
+    min-width: 150;
+    min-height: 30px;
+}
+
+input {
+    font-size: 13px;
+    height: 25px;
+    min-width: 300px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    height: 2.5rem;
+    width: 100%;
+    left:0px;
+    right:0px;
+    border-top: 1px solid #dadce0;
+}
+
+.footerDesc {
+    color: #909399;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 15px;
+    font-family: arial,sans-serif;
+    padding: 10px;
+}
